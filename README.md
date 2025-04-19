@@ -29,49 +29,6 @@ listed_incity: City area (e.g., Banashankari, BTM).
 
 Geographical_Coordinates.csv: Contains latitude and longitude for each city area (listed_incity).
 
-The cleaned dataset is saved as cleaned_zomato_data.csv after preprocessing.
-🛠️ Setup Instructions
-To run this project locally, follow these steps:
-Prerequisites
-
-Python 3.8 or higher
-Jupyter Notebook or JupyterLab
-Required Python libraries (listed below)
-
-Installation
-
-Clone the Repository:
-git clone https://github.com/your-username/zomato-bangalore-restaurant-trends.git
-cd zomato-bangalore-restaurant-trends
-
-
-Install Dependencies:Create a virtual environment (optional but recommended) and install the required libraries:
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-pip install -r requirements.txt
-
-The requirements.txt should include:
-pandas
-numpy
-matplotlib
-seaborn
-folium
-geopandas
-geopy
-plotly
-
-
-Prepare the Dataset:
-
-Place zomato_data.csv and Geographical_Coordinates.csv in the project directory.
-Alternatively, use the provided cleaned_zomato_data.csv for preprocessed data.
-
-
-Run the Jupyter Notebook:Start Jupyter Notebook and open the analysis file:
-jupyter notebook
-
-Navigate to Food And Restaurant Data Analysis(Hackathon).ipynb and run the cells.
-
 
 🚀 Usage
 
@@ -79,12 +36,6 @@ Data Cleaning: The notebook includes steps to handle missing values, convert dat
 Exploratory Data Analysis (EDA): Visualizations such as histograms, box plots, and correlation heatmaps are generated to explore ratings, costs, and restaurant types.
 Geospatial Visualization: A restaurant density map is created using Folium, leveraging latitude and longitude data from the geographical coordinates.
 Insights: The analysis provides insights into popular cuisines, high-rated restaurant types, and spatial distribution of restaurants in Bangalore.
-
-To generate visualizations or explore specific sections:
-
-Run the notebook cells sequentially.
-Modify parameters (e.g., plot sizes, filtering criteria) as needed.
-Save outputs (e.g., cleaned data, plots) to the project directory.
 
 📈 Key Findings
 
